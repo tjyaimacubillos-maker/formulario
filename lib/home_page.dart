@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
             SizedBox(height: 20),
 
             Text(
-              "JUAN PEREZ",
+              "Formulario",
               style: TextStyle(
                 fontSize: 25,
                 fontWeight: FontWeight.bold,
@@ -43,6 +43,16 @@ class HomePage extends StatelessWidget {
             ),
 
             SizedBox(height: 15),
+
+             TextField(
+              decoration: InputDecoration(
+                labelText: "N° De Identificacion",
+                border: OutlineInputBorder(),
+                prefixIcon: Icon(Icons.numbers),
+              ),
+            ),
+
+            SizedBox(height: 20),
 
             TextField(
               decoration: InputDecoration(
@@ -63,6 +73,17 @@ class HomePage extends StatelessWidget {
             ),
 
             SizedBox(height: 20),
+
+             TextField(
+              decoration: InputDecoration(
+                labelText: "Direccion",
+                border: OutlineInputBorder(),
+                prefixIcon: Icon(Icons.location_city),
+              ),
+            ),
+
+            SizedBox(height: 20),
+            
 
             ElevatedButton(
               onPressed: () {
