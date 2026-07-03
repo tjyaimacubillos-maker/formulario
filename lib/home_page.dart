@@ -19,7 +19,7 @@ class HomePage extends StatelessWidget {
             CircleAvatar(
               radius: 60,
               backgroundImage:
-              AssetImage("assets/imagenes/foto.jpg"),
+              AssetImage("assets/imagenes/fot.jpg"),
             ),
 
             SizedBox(height: 20),
